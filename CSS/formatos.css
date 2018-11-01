@@ -14,6 +14,7 @@ img{
 }
 
 .texto{
+    border-radius: 10px;
     text-align: left;
     position: relative;
     margin-left: 70px;
@@ -34,9 +35,22 @@ img{
     top: 50px;
     left: 25%;
     background-color: rgba(32, 66, 41, 0.473);
+
+}
+
+.loginPanel{
+    position:relative;
+    margin-top: -10px;
+    margin-bottom: -50px;
+    width: 35%;
+    height: 500px;
+    top: 50px;
+    left: 33%;
+    background-color: rgba(32, 66, 41, 0.473);
 }
 
 .findMyRide{
+    border-radius: 10px;
     border: 2px solid black;
     position: relative;
     width: 550px;
@@ -58,14 +72,55 @@ img{
 }
 
 .textBox{
+    border-radius: 10px;
     position: inherit;
     top: -44px;
     left: 15px;
     display: inline-block;
 }
 
+.textBoxUsername{
+    border-radius: 10px;
+    position: inherit;
+    top: -15px;
+    left: -35px;
+    width: 180px;
+    display: inline-block;
+}
+
+.textBoxPass{
+    border-radius: 10px;
+    position: inherit;
+    top: -30px;
+    left: -35px;
+    width: 180px;
+    display: inline-block;
+}
+
+.usernameTex{
+    position: relative;
+    font-family: cursive;
+    font-size: 18px;
+    left: -80px;
+}
+
+.pass{
+    position: relative;
+    font-family: cursive;
+    font-size: 18px;
+    top: -15px;
+    left: -80px;
+}
+
+.NotRegistered{
+    position: relative;
+    right: -170px;
+    top: -15px; 
+}
+
 /*Botones */
 .login {
+    border-radius: 20px;
     background-color: #4CAF50;
     border:1px black solid;
     color: rgb(38, 61, 39);
@@ -80,6 +135,7 @@ img{
 }
 
 .btnFind {
+    border-radius: 20px;
     background-color: #4CAF50;
     border:1px black solid;
     color: rgb(38, 61, 39);
@@ -108,9 +164,13 @@ img{
     padding: 5px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
 
-#customers tr:hover {background-color: #ddd;}
+#customers tr:hover {
+    background-color: #ddd;
+}
 
 #customers th {
     align-items: center;
