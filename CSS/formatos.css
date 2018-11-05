@@ -35,6 +35,24 @@ img{
     left: -425px;
     text-decoration: none;
 }
+
+.datesPanel{
+    
+    position: relative;
+    left: -120px;
+    top: -140px;
+    width: 210px;
+    height: 110px;
+}
+
+.daysPanel{
+    position: relative;
+    left: 120px;
+    top: -265px;
+    width: 210px;
+    height: 110px;
+}
+
 .MyRides{
     position: relative;
     top: 20px;
@@ -309,6 +327,49 @@ img{
     border-radius: 10px;
 }
 
+.departure{
+    position: relative;
+    font-family: cursive;
+    font-size: 12px;
+    left: -70px;
+}
+
+.departureTextbox{
+    position: relative;
+    top: -10px;
+    left: 0px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.estimatedArrival{
+    position: relative;
+    font-family: cursive;
+    top: -15px;
+    left: 15px;
+    font-size: 12px;
+    left: -50px;
+}
+
+.estimatedArrivalBox{
+    position: relative;
+    top: -20px;
+    left: 0px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.selectedDays{
+    position: relative;
+    font-family: cursive;
+    top: -15px;
+    left: 15px;
+    font-size: 12px;
+    left: -50px;
+}
+
 .btnCancel{
     position: relative;
     top: 100px;
@@ -511,7 +572,7 @@ hr{
 
 .btnsMenu{
     float: left;
-    margin: 6px;
+    margin: 4px;
     background-color: rgba(39, 126, 43, 0.993);
     border-radius: 15px;
     color: white;
