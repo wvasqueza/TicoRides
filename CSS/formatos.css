@@ -20,6 +20,142 @@ img{
     margin-left: 70px;
 }
 
+.title{
+    font-family: cursive;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: -400px;
+}
+.subtitle{
+    font-family: cursive;
+    font-size: 12px;
+    position: relative;
+    top: 80px;
+    left: -425px;
+    text-decoration: none;
+}
+.MyRides{
+    position: relative;
+    top: 20px;
+    left: -187px;
+}
+.currentRides{
+    position: relative;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    top: 20px;
+    left: -170px;
+}
+
+.firstNameLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -15px;
+    left: 50px;
+}
+.lastnameLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -35px;
+    left: 50px;
+}
+.phoneLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -50px;
+    left: 50px;
+}
+.usernameLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -60px;
+    left: 50px;
+}
+.passLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -80px;
+    left: 50px;
+}
+.confPassLabel{
+    padding: -20px;
+    position: relative;
+    font-family: cursive;
+    font-size: 14px;
+    top: -95px;
+    left: 50px;
+}
+.fNTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -25px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+.lNTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+.phoneTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -65px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+.uNTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -75px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+.pTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -90px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+.cPTextbox{
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+    top: -110px;
+    left: 100px;
+    width: 180px;
+    display: inline-block;
+}
+
+.lastname{
+    position: relative;
+    top: -10px;
+}
+
 .Welcome{
     color:black;
     align-self: center;
@@ -37,6 +173,11 @@ img{
     background-color: rgba(32, 66, 41, 0.473);
 
 }
+.loginHere{
+    position: relative;
+    top: 0px;
+    left: 850px;
+}
 
 .loginPanel{
     position:relative;
@@ -48,6 +189,18 @@ img{
     left: 33%;
     background-color: rgba(32, 66, 41, 0.473);
 }
+
+.registryPanel{
+    position:relative;
+    margin-top: 0px;
+    margin-bottom: -50px;
+    width: 35%;
+    height: 600px;
+    top: 25px;
+    left: 37%;
+    background-color: rgba(32, 66, 41, 0.473);
+}
+
 
 .findMyRide{
     border-radius: 10px;
@@ -133,7 +286,21 @@ img{
     position: relative;
     left: 58%;
 }
-
+.loguear {
+    border-radius: 20px;
+    background-color: #4CAF50;
+    border:1px black solid;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana;
+    position: relative;
+    top: -15%;
+    left: 0px;
+}
 .btnFind {
     border-radius: 20px;
     background-color: #4CAF50;
@@ -149,14 +316,65 @@ img{
     top: -42px;
     left:  20px;
 }
+.btnRegister{
+    border-radius: 20px;
+    background-color: #4CAF50;
+    border:1px black solid;
+    color: rgb(38, 61, 39);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana;
+    position: relative;
+    top: -70px;
+    left: -20px;
+}
 
+.menu{
+    background-color: rgb(19, 61, 21);
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 43px;
+}
+
+.btnsMenu{
+    float: left;
+    margin: 6px;
+    background-color: rgba(39, 126, 43, 0.993);
+    border-radius: 15px;
+    color: white;
+    padding: 10px, 30px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 150%;
+}
+
+.tablediv{
+    background-color: rgba(32, 66, 41, 0.473);
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 550px;
+    height: 400px;
+
+}
 /*Tablas*/
 
 #customers {
     align-items: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 75%;
+    position: relative;
+    top: 10px;
+    width: 85%;
 }
 
 #customers td, #customers th {
@@ -180,3 +398,6 @@ img{
     background-color: rgba(71, 71, 71, 0.801);
     color: white;
 }
+
+
+
