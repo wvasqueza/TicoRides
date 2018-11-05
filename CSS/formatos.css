@@ -257,6 +257,172 @@ img{
     left: -80px;
 }
 
+.fullName{
+    float: left;
+    margin-left: 50px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.fullNameTextbox{
+    position: relative;
+    top: 50px;
+    left: -125px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.speedAverage{
+    float: left;
+    margin-top: 80px;
+    margin-left: -80px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.speedAverageTextbox{
+    position: relative;
+    top: 110px;
+    left: -300px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.aboutMe{
+    float: left;
+    margin-top: 140px;
+    margin-left: -127px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.aboutMeTextbox{
+    position: relative;
+    top: 50px;
+    left: 55px;
+    width: 75%;
+    height: 60px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btnCancel{
+    position: relative;
+    top: 100px;
+    left: -300px;
+    background-color:#4CAF50; 
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana;
+    
+}
+.btnSave{
+    position: relative;
+    top: 62px;
+    left: 40px;
+    background-color:#4CAF50; 
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+.RideName{
+    position: relative;
+    top: 10px;
+    left: -200px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.RideNameTextbox{
+    position: relative;
+    top: -30px;
+    left: -50px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.StartDate{
+    position: relative;
+    top: -30px;
+    left: -200px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.StartDateTextbox{
+    position: relative;
+    top: -40px;
+    left: -165px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.EndDate{
+    position: relative;
+    top: -115px;
+    left: 0px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.EndTextbox{
+    position: relative;
+    top:-125px;
+    left: 70px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.Description{
+    position: relative;
+    top: -125px;
+    left: -200px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.Descriptionbox{
+    position: relative;
+    top:-125px;
+    left: -50px;
+    width: 400px;
+    height: 50px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+hr{
+    position: relative;
+    top: -120px;
+}
+
+.when{
+    position: relative;
+    top: -125px;
+    left: -220px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
 .pass{
     position: relative;
     font-family: cursive;
